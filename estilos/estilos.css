@@ -1,0 +1,32 @@
+header {
+        background-color: rgb(224, 246, 145);
+        color: white;
+        padding: 10px;
+    }
+    main {
+        padding: 20px;
+    }
+footer {
+        background-color: rgb(252, 192, 89);
+        color: white;
+        padding: 10px;
+        text-align: center;
+    }
+.photo {
+        width: 300px;
+        height: auto;
+        margin: 10px;
+    }
+.barramenu {
+        background-color: rgb(252, 192, 89);
+        padding: 10px;
+    }
+.botonmenu {
+        background-color: rgb(224, 246, 145);
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+        list-style: none;
+    }

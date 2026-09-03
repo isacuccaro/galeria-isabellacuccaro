@@ -18,15 +18,23 @@ footer {
         margin: 10px;
     }
 .barramenu {
-        background-color: rgb(252, 192, 89);
-        padding: 10px;
-    }
+    background-color: rgb(252, 192, 89);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+}
+
 .botonmenu {
-        background-color: rgb(224, 246, 145);
-        color: white;
-        padding: 10px;
-        text-decoration: none;
-        border-radius: 5px;
-        text-align: center;
-        list-style: none;
-    }
+    background-color: rgb(224, 246, 145);
+    color: pink;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.botonmenu a {
+    color: pink;
+    text-decoration: none;
+}

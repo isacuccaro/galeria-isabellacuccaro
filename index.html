@@ -4,27 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flores</title>
-    <meta> author= "Isabella Cuccaro"
-
+    <meta name="author" content="Isabella Cuccaro">
+    <link rel="stylesheet" href="estilos/estilos.css">
+<style>
+    li {
+        color: pink;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    li a {
+        color: pink;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    li a:hover {
+        color: rgb(255, 162, 0);
+        font-size: 20px;
+        text-decoration: none;
+    }
+    body {
+        background-color: rgb(250, 255, 200);
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .title {
+        color:fuchsia;
+        font-size: 30px;
+    }
+</style>
 
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li>Flores</li>
-                <li><a href="rosas.html">Rosas</a></li>
-                <li><a href="blancas.html">Blancas</a></li>
+            <ul class="barramenu">
+                <li class="botonmenu">Galería de flores</li>
+                <li class="botonmenu"><a href="rosas.html">Rosas</a></li>
+                <li class="botonmenu"><a href="blancas.html">Blancas</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Flores</h1>
-        <img src="flores1.jpeg" alt="Planta de hortensias">
+        <h1 class="title">Galería de flores</h1>
+        <img class="photo" src="flores1.jpeg" alt="Planta de hortensias">
+        <h2 class="title">Planta de hortensias</h2>
         <p>Estas son mis flores favoritas</p>
     </main>
     <footer>
-        <h6>Aguanten las flores!!</h6>
+        <h6>Las flores son la mejor compañía.</h6>
     </footer>
 </body>
 </html>
